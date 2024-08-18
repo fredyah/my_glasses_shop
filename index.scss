@@ -7,6 +7,13 @@
 // import google icon
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+// Theme colors
+$myred: #AA0601;
+$myblack: #000000;
+$mypink: #FBF2F2;
+
+
+
 // style
 * {
     color: inherit;
@@ -28,7 +35,7 @@ a {
 
 hr {
     border: 0;
-    border-top: 1px dotted #AA0601;
+    border-top: 1px dotted $myred;
 }
 
 img {
@@ -37,6 +44,12 @@ img {
 
 h1 {
     a {
-        color: #000000;
+        color: $myblack;
     }
 }
+
+button {
+    background-color: $mypink;
+}
+
+
